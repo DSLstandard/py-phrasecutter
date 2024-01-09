@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "phrasecutter"
+version = "0.1.0"
+description = ""
+authors = ["dosh <none>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai-whisper = "^20231117"
+python-ffmpeg = "^2.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
